@@ -79,7 +79,7 @@
     </ui:InputDialog>
     <If Condition="[marks &gt;=60]" sap:VirtualizedContainerService.HintSize="714,224" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
-        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box Passed Hope this works" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Congrtualtion &quot; + Name + &quot; you have passed&quot;]" />
+        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box Passed Hope this works" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Congrtualtion &quot; + Name + &quot; you have passed not sure&quot;]" />
       </If.Then>
       <If.Else>
         <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box Fail" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Hello &quot; + Name + &quot;  you have failed the exam&quot;]" />
