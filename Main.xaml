@@ -66,7 +66,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog enter Name" sap:VirtualizedContainerService.HintSize="714,244.666666666667" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter your Name in it" Title="Name">
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog enter Name" sap:VirtualizedContainerService.HintSize="714,244.666666666667" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter your Nvame in it" Title="Name">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[Name]</OutArgument>
       </ui:InputDialog.Result>
